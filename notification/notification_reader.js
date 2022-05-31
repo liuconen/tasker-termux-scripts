@@ -95,9 +95,9 @@ function read(notification) {
     }
 }
 
- var output = read(rawmsg);; // 输出变量%output, task中局部变量名应为%rawmsg
+var output = read(rawmsg);; // 输出变量%output, task中局部变量名应为%rawmsg
 
-//console.log(read("com.tencent.mm,GIANT心電途自行車俱樂部,乐益～老湿人: @凤仙 明早7：30分凤凰弯等你[呲牙]？,%evtprm4,%evtprm5,%evtprm6,msg,false"));
+// console.log(read("com.tencent.mm,GIANT心電途自行車俱樂部,乐益～老湿人: @凤仙 明早7：30分凤凰弯等你[呲牙]？,%evtprm4,%evtprm5,%evtprm6,msg,false"));
 
 // function main() {
 //     let text = process.argv[2];
